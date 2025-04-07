@@ -73,8 +73,8 @@ Desde Inicio > Ejecutar > optionalfeatures, desactiva:
 
     Contenedores
 
-    ⚠️ En Windows Home puede que no tengas acceso a esta herramienta.
-
+    ⚠️ En **Windows Home** puede que no tengas acceso a esta herramienta.
+--- 
 🔁 Verificación final
 
     Ejecuta en CMD:
@@ -89,13 +89,13 @@ systeminfo
         ✅ Habilitar VT-x/AMD-V
 
         ✅ Paginación anidada
-
+---
 📌 Notas
 
-    Estas instrucciones aplican a Windows 10/11.
+    ⚠️ **Advertencia:** Estas instrucciones aplican a Windows 10/11.
 
-    En Windows Home, gpedit.msc y optionalfeatures pueden no estar disponibles.
+    En **Windows Home**, gpedit.msc y optionalfeatures pueden no estar disponibles.
 
     Algunos portátiles MSI (como el tuyo: Sword 16 HX B14VFKG) pueden traer políticas preactivadas que activan VBS automáticamente.
 
-    Puedes automatizar parte del proceso con scripts .bat o .reg.
+   
