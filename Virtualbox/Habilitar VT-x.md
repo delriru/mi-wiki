@@ -78,8 +78,9 @@ Desde Inicio > Ejecutar > optionalfeatures, desactiva:
 🔁 Verificación final
 
     Ejecuta en CMD:
-
+```
 systeminfo
+```
 
     Asegúrate de que NO diga: Se detectó un hipervisor.
 
