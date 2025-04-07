@@ -29,7 +29,7 @@ Guía rápida para instalar VirtualBox en los sistemas operativos más comunes.
 
 ## 🐧 Linux (Debian/Ubuntu)
 
-```bash
+```
 sudo apt update
 sudo apt install virtualbox -y
 ```
