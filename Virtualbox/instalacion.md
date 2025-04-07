@@ -31,7 +31,7 @@ Guía rápida para instalar VirtualBox en los sistemas operativos más comunes.
 
 ```bash
 sudo apt update
-sudo apt install virtualbox -y
+sudo apt install virtualbox -y ```
 
 ---
 
