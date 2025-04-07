@@ -63,15 +63,13 @@ Acepta los cambios y reinicia.
 
 Desde Inicio > Ejecutar > optionalfeatures, desactiva:
 
+```
     Hyper-V
-
     Plataforma de máquina virtual
-
     Subsistema de Windows para Linux
-
     Windows Sandbox
-
     Contenedores
+```
 
     ⚠️ En **Windows Home** puede que no tengas acceso a esta herramienta.
 --- 
