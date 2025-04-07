@@ -89,15 +89,16 @@ Abre VirtualBox > Configuración de la VM > Sistema > Aceleración
 Ya deberías poder marcar:
 
 ✅ Habilitar VT-x/AMD-V
+
 ✅ Paginación anidada
 
 ---
 📌 Notas
 
-    ⚠️ **Advertencia:** Estas instrucciones aplican a Windows 10/11.
+ ⚠️ **Advertencia:** Estas instrucciones aplican a Windows 10/11.
 
-    En **Windows Home**, gpedit.msc y optionalfeatures pueden no estar disponibles.
+ En **Windows Home**, gpedit.msc y optionalfeatures pueden no estar disponibles.
 
-    Algunos portátiles MSI (como el tuyo: Sword 16 HX B14VFKG) pueden traer políticas preactivadas que activan VBS automáticamente.
+Algunos portátiles MSI (como el tuyo: Sword 16 HX B14VFKG) pueden traer políticas preactivadas que activan VBS automáticamente.
 
    
