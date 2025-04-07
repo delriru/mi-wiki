@@ -37,16 +37,15 @@ sudo apt install virtualbox -y
 
 ## 🍎 macOS
 
-    Descargar el archivo .dmg desde:
-    https://www.virtualbox.org
+1. Descargar el archivo `.dmg` desde:  
+   [https://www.virtualbox.org](https://www.virtualbox.org)
 
-    Abrir el .dmg y seguir los pasos de instalación.
+2. Abrir el `.dmg` y seguir los pasos de instalación.
 
-    Si macOS bloquea la extensión del kernel:
+3. Si macOS bloquea la extensión del kernel:
+   - Ve a **Preferencias del Sistema → Seguridad y privacidad**
+   - Permite la carga de software del desarrollador Oracle
 
-        Ve a Preferencias del Sistema → Seguridad y privacidad
-
-        Permite la carga de software del desarrollador Oracle
 ---
 ### ✅ Verificar instalación
 Abre VirtualBox y verifica que puedas crear una nueva máquina virtual sin errores.
