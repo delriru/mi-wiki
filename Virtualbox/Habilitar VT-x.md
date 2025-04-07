@@ -40,6 +40,7 @@ dism /online /disable-feature /featurename:Microsoft-Hyper-V-All /norestart
 dism /online /disable-feature /featurename:VirtualMachinePlatform /norestart
 dism /online /disable-feature /featurename:WindowsHypervisorPlatform /norestart
 ```
+
 ## 🔄 Reinicia después de ejecutar estos comandos.
 
 3. Eliminar DeviceGuard y CredentialGuard
@@ -47,11 +48,13 @@ Crea un archivo llamado desactivar_vbs.reg con este contenido:
 
 Windows Registry Editor Version 5.00
 
+```
 [-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard]
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
 "LsaCfgFlags"=dword:00000000
 
+```
     Guarda el archivo y ejecútalo con doble clic.
 
     Acepta los cambios y reinicia.
