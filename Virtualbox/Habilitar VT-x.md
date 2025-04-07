@@ -68,8 +68,7 @@ Acepta los cambios y reinicia.
     Windows Sandbox
     Contenedores
 ```
-
-5. ⚠️ En **Windows Home** puede que no tengas acceso a esta herramienta.
+⚠️ En **Windows Home** puede que no tengas acceso a esta herramienta.
 
 --- 
 ## 🔁 Verificación final
