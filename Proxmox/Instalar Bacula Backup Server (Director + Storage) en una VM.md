@@ -1,4 +1,5 @@
 🔹 PASO 1: Crear una VM Linux para Bacula en Proxmox
+
 1.1. Sube la ISO de instalación a Proxmox
 
 Si no tienes una ISO de Linux aún:
