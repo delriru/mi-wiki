@@ -18,7 +18,9 @@ Se detectó un hipervisor.
 
 Entonces Windows está ejecutando un hipervisor (como Hyper-V o VBS) que bloquea VT-x.
 ✅ Soluciones
-1. Desactivar Memory Integrity (Aislamiento del núcleo)
+1. Desactivar Memory Integrity (Aislamiento del núcleo
+
+```
 
     Ir a:
     Inicio > Seguridad de Windows > Seguridad del dispositivo > Aislamiento del núcleo
@@ -26,11 +28,14 @@ Entonces Windows está ejecutando un hipervisor (como Hyper-V o VBS) que bloquea
     Desactiva “Integridad de memoria”
 
     Reinicia el equipo.
+```
 
 2. Desactivar Hyper-V y Virtualization-Based Security (VBS)
 Comandos CMD / PowerShell como administrador:
 
+```cmd
 bcdedit /set hypervisorlaunchtype off
+```
 
 dism /online /disable-feature /featurename:Microsoft-Hyper-V-All /norestart
 dism /online /disable-feature /featurename:VirtualMachinePlatform /norestart
