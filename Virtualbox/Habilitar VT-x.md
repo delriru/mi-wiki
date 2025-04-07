@@ -44,7 +44,7 @@ dism /online /disable-feature /featurename:WindowsHypervisorPlatform /norestart
 ## 🔄 Reinicia después de ejecutar estos comandos.
 
 3. Eliminar DeviceGuard y CredentialGuard
-Crea un archivo llamado desactivar_vbs.reg con este contenido:
+Crea un archivo llamado **desactivar_vbs.reg**con este contenido:
 
 Windows Registry Editor Version 5.00
 
@@ -61,7 +61,7 @@ Acepta los cambios y reinicia.
 
 4. (Opcional) Quitar características de Windows si tienes acceso a optionalfeatures
 
-Desde Inicio > Ejecutar > optionalfeatures, desactiva:
+**Desde Inicio > Ejecutar > optionalfeatures, desactiva:**
 
 ```
     Hyper-V
@@ -84,7 +84,7 @@ systeminfo
 
 Asegúrate de que NO diga: Se detectó un hipervisor.
 
-Abre VirtualBox > Configuración de la VM > Sistema > Aceleración
+**Abre VirtualBox > Configuración de la VM > Sistema > Aceleración**
     
 Ya deberías poder marcar:
 
@@ -99,6 +99,6 @@ Ya deberías poder marcar:
 
  En **Windows Home**, gpedit.msc y optionalfeatures pueden no estar disponibles.
 
-Algunos portátiles MSI (como el tuyo: Sword 16 HX B14VFKG) pueden traer políticas preactivadas que activan VBS automáticamente.
+Algunos portátiles MSI pueden traer políticas preactivadas que activan VBS automáticamente.
 
    
