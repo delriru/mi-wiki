@@ -10,6 +10,7 @@ Ejecuta en CMD:
 
 ```cmd
 systeminfo
+```
 
 Si ves:
 
