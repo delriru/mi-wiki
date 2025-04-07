@@ -54,11 +54,12 @@ Guía paso a paso para instalar **Proxmox Virtual Environment** (VE) en **Oracle
    
 You can now connect to the Proxmox VE web interface:
 
+**https://<TU_IP_LOCAL>:8006**
 
-3. Abre un navegador en tu máquina real y accede a esa IP:  
+3. Abre un navegador en tu máquina real y accede a esa IP:
 **https://192.168.1.100:8006** (por ejemplo)
 
-4. Inicia sesión con:
+5. Inicia sesión con:
 - **Usuario:** `root`
 - **Contraseña:** la que configuraste
 - **Realm:** `Linux PAM standard authentication`
