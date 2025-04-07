@@ -50,6 +50,6 @@ sudo apt install virtualbox -y
         Permite la carga de software del desarrollador Oracle
 ---
 ### ✅ Verificar instalación
-
 Abre VirtualBox y verifica que puedas crear una nueva máquina virtual sin errores.
----
+
+
