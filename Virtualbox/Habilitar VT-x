@@ -1,0 +1,18 @@
+# 🛠️ Solución: VirtualBox no permite habilitar VT-x/AMD-V en Windows
+
+## 🧠 Problema  
+VirtualBox no permite habilitar VT-x/AMD-V, aunque esté activado en BIOS/UEFI.
+
+---
+
+## 🔍 Diagnóstico  
+Ejecuta en CMD:
+
+```cmd
+systeminfo
+
+Si ves:
+
+Se detectó un hipervisor.
+
+Entonces Windows está ejecutando un hipervisor (como Hyper-V o VBS) que bloquea VT-x.
