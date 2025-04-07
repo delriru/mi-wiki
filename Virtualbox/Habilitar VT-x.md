@@ -74,21 +74,23 @@ Desde Inicio > Ejecutar > optionalfeatures, desactiva:
 5. ⚠️ En **Windows Home** puede que no tengas acceso a esta herramienta.
 
 --- 
-🔁 Verificación final
+## 🔁 Verificación final
 
-    Ejecuta en CMD:
+Ejecuta en CMD:
+
 ```
 systeminfo
 ```
 
-    Asegúrate de que NO diga: Se detectó un hipervisor.
+Asegúrate de que NO diga: Se detectó un hipervisor.
 
-    Abre VirtualBox > Configuración de la VM > Sistema > Aceleración
-    Ya deberías poder marcar:
+Abre VirtualBox > Configuración de la VM > Sistema > Aceleración
+    
+Ya deberías poder marcar:
 
-        ✅ Habilitar VT-x/AMD-V
+✅ Habilitar VT-x/AMD-V
+✅ Paginación anidada
 
-        ✅ Paginación anidada
 ---
 📌 Notas
 
