@@ -20,6 +20,7 @@ Entonces Windows está ejecutando un hipervisor (como Hyper-V o VBS) que bloquea
 ✅ Soluciones
 1. Desactivar Memory Integrity (Aislamiento del núcleo
 Ir a:
+
 **Inicio > Seguridad de Windows > Seguridad del dispositivo > Aislamiento del núcleo**
 
 ```
