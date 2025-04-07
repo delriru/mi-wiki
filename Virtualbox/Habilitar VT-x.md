@@ -43,7 +43,7 @@ dism /online /disable-feature /featurename:WindowsHypervisorPlatform /norestart
 
 ## 🔄 Reinicia después de ejecutar estos comandos.
 
-Eliminar DeviceGuard y CredentialGuard
+3. Eliminar DeviceGuard y CredentialGuard
 Crea un archivo llamado desactivar_vbs.reg con este contenido:
 
 Windows Registry Editor Version 5.00
@@ -55,9 +55,9 @@ Windows Registry Editor Version 5.00
 "LsaCfgFlags"=dword:00000000
 
 ```
-    Guarda el archivo y ejecútalo con doble clic.
+Guarda el archivo y ejecútalo con doble clic.
 
-    Acepta los cambios y reinicia.
+Acepta los cambios y reinicia.
 
 4. (Opcional) Quitar características de Windows si tienes acceso a optionalfeatures
 
