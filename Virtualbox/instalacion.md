@@ -33,7 +33,6 @@ Guía rápida para instalar VirtualBox en los sistemas operativos más comunes.
 sudo apt update
 sudo apt install virtualbox -y
 ```
-
 ---
 
 ## 🍎 macOS
