@@ -35,13 +35,12 @@ Comandos CMD / PowerShell como administrador:
 
 ```cmd
 bcdedit /set hypervisorlaunchtype off
-```
 
 dism /online /disable-feature /featurename:Microsoft-Hyper-V-All /norestart
 dism /online /disable-feature /featurename:VirtualMachinePlatform /norestart
 dism /online /disable-feature /featurename:WindowsHypervisorPlatform /norestart
-
-    🔄 Reinicia después de ejecutar estos comandos.
+```
+## 🔄 Reinicia después de ejecutar estos comandos.
 
 3. Eliminar DeviceGuard y CredentialGuard
 Crea un archivo llamado desactivar_vbs.reg con este contenido:
