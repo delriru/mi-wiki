@@ -71,7 +71,8 @@ Desde Inicio > Ejecutar > optionalfeatures, desactiva:
     Contenedores
 ```
 
-    ⚠️ En **Windows Home** puede que no tengas acceso a esta herramienta.
+5. ⚠️ En **Windows Home** puede que no tengas acceso a esta herramienta.
+
 --- 
 🔁 Verificación final
 
