@@ -70,15 +70,14 @@ Crea un usuario, habilita SSH, selecciona mínimo software
 ---
 Una vez instalado el SO:
 
-    Inicia sesión con tu usuario
+Inicia sesión con tu usuario
 
-    Actualiza el sistema:
+Actualiza el sistema:
 
+```
 sudo apt update && sudo apt upgrade -y  # en Ubuntu
-
-o
-
-    sudo dnf update -y  # en Rocky
+sudo dnf update -y  # en Rocky
+```
 
 🔹 PASO 3: Instalar Bacula (Ubuntu ejemplo)
 ---
